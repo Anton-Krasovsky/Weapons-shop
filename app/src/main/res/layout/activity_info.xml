@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/BackGroundInfo"
+    tools:context=".InfoActivity">
+
+    <TextView
+        android:id="@+id/info_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/BackGroundInfo"
+        android:fontFamily="@font/adamina"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="25dp"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/info_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/BackGroundInfo"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="15dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/adamina"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/button_info_buy"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="130dp"
+        android:backgroundTint="#07C5FF"
+        android:text="Buy now"
+        android:textColor="@color/black" />
+
+</LinearLayout>

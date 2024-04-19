@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorBackGround">#3C3B3B</color>
+    <color name="textColorLabel">#EF09EF</color>
+    <color name="colorStatusBar">#484C48</color>
+    <color name="colorActionBar">#E629E6</color>
+    <color name="textColorHint">#B6B2B6</color>
+    <color name="BackGroundItemActivity">#CBEDD956</color>
+    <color name="BackGroundWeaponList">#FF9800</color>
+    <color name="BackGroundWeaponButton">#FFC107</color>
+    <color name="BackGroundInfo">#E8DE88</color>
+
+</resources>
